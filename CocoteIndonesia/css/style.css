@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+body {
+  font-family: "Patrick Hand", Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+main {
+  padding: 40px;
+  overflow: auto;
+}
+
+header {
+  display: inline;
+}
+
+.container-nav {
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+}
+
+.nav-bar-list {
+  background-color: #37988e;
+  font-size: 18px;
+  padding: 8px;
+}
+
+.nav-bar-list ul {
+  list-style-type: none;
+  margin: 20px;
+  margin-left: 30px;
+}
+
+.nav-bar-list li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav-bar-list a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav-bar-list a:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nav-bar-list a:active {
+  color: orange;
+}
+
+.brand-logo img {
+  border-radius: 50%;
+  float: right;
+  overflow: auto;
+  margin-right: 150px;
+  margin-top: -60px;
+}
+
+.main-container {
+  background-color: #ffffff;
+  width: 100%;
+  text-align: right;
+  padding: 100px;
+  box-sizing: border-box;
+}
+
+.main-background {
+  width: 50%;
+  float: left;
+  clear: both;
+}
+
+.main-background img {
+  width: 70%;
+  max-height: 350px;
+  float: left;
+  object-fit: cover;
+  display: flex;
+  padding-top: 20px;
+  overflow: auto;
+  margin-left: 100px;
+}
+
+.text-home {
+  text-align: left;
+  overflow: auto;
+  word-wrap: break-word;
+  line-height: 2;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  float: left;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.card-image {
+  margin-top: 135px;
+  float: left;
+}
+
+.card-image h2 {
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.image-content {
+  width: 30%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  padding: 15px;
+  text-align: justify;
+  float: left;
+  margin-right: 20px;
+  height: 500px;
+  max-height: 700px;
+}
+
+.image-content h4 {
+  margin-right: 150px;
+  text-align: center;
+  padding: 2px;
+}
+
+.image-content ~ p {
+  position: relative;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.featured-image {
+  width: 100%;
+  height: 280px;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.profile-header {
+  width: 100%;
+  float: right;
+  clear: both;
+  overflow: auto;
+}
+
+.profile-header h3 {
+  text-align: left;
+  font-size: 30px;
+}
+
+.profile-img {
+  width: 300px;
+  float: right;
+  object-fit: cover;
+  padding-right: 100px;
+  padding-bottom: 150px;
+}
+
+.tentang-kami {
+  text-align: justify;
+  box-sizing: border-box;
+  line-height: 2;
+}
+
+.tentang-kami p {
+  padding-top: 10px;
+  width: 50%;
+  word-wrap: break-word;
+}
+
+.tentang-kami a {
+  text-decoration: none;
+  color: black;
+}
+
+.kontak-kami {
+  padding: 100px;
+}
+
+footer {
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  background-color: yellowgreen;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+@media screen {
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}

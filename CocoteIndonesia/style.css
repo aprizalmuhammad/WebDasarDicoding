@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+body {
+    font-family: "Patrick Hand", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+header {
+    display: inline;
+}
+
+.nav-bar {
+    padding: 5px;
+    width: 100%;
+    height: 60px;
+    display: inline-block;
+    background-color: #1e81b0;
+    justify-content: space-between;
+    text-align: center;
+    position: sticky;
+}
+
+.nav ul {
+    margin-right: 70px;
+    cursor: pointer;
+    list-style-type: none;
+    float: right;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    position: sticky;
+}
+
+.nav ul :hover {
+    font-weight: bold;
+}
+
+.nav li {
+    display: inline-block;
+    margin-right: 25px;
+    font-family: "Releway", sans-serif;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    position: relative;
+}
+
+.logo img {
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 100px;
+}
+
+.logo p {
+    position: absolute;
+}
+
+.logo p {
+    margin-left: 160px;
+    margin-top: 1px;
+    text-align: center;
+    justify-content: center;
+}
+
+.beranda {
+    text-align: center;
+    background-color: #00a2c6;
+    height: 200px;
+    margin-top: -26px;
+}
+
+.beranda h1 {
+    padding-top: 25px;
+}
+
+.nama-menu {
+    text-align: center;
+    font-family: "Signika", sans-serif;
+    margin-top: 60px;
+}
+
+.card-body {
+    padding: 1.25rem;
+    flex: 1 1 auto;
+}
+
+.card-content {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-content>article {
+    width: 400px;
+    margin: 50px;
+}
+
+.gallery {
+    clear: both;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.gallery img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.desc-title {
+    text-align: center;
+}
+
+.desc {
+    margin: 5px;
+    padding: 15px;
+    text-align: center;
+}
+
+.desc>p {
+    margin: 5px;
+}
+
+.profile {
+    padding: 20px;
+    background-color: grey;
+}
+
+.profile-header {
+    overflow: auto;
+    margin: 5px;
+}
+
+.img-profile>img {
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-right: 25px;
+}
+
+.desc-profile>p {
+    width: 75%;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.logo-profile {
+    position: absolute;
+    left: 15%;
+    margin-top: 2%;
+    display: inline-block;
+}
+
+.logo-profile>a>img {
+    width: 20px;
+    height: 20px;
+}
+
+.footer {
+    background-color: #f6f8fa;
+    padding: 20px;
+}
+
+.footer-desc>p {
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* responsive layout - makes a one column layout instead of a two column layout*/
+
+@media (max-width: 800px) {
+    .card-content {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
